@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+        /* #nav{
+            height:60px;
+            width:100%;
+            display:flex;
+           
+            background-color: rgb(0, 119, 255);
+           
+        }
+        #inp{
+            width:30%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 50px;
+            display: flex;
+        }
+        #abo{
+            display: flex;
+            margin-left: 200px;
+            margin-top: 5px;
+            color:white;
+            cursor: pointer;
+        } */
+        #images{
+               display:grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: auto; 
+            
+        }
+         #img{
+              /* height:500px; */
+             /* width:20%;  */
+             margin-left: 30px;
+             /* border:1px solid black; */
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+          
+        } 
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+        <div id="nav"></div>
+            
+           
+        
+        <h3 style="margin-left:70px">Top Reads</h3>
+        <div id="images">
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/41HcothYyLL.jpg" alt="" style="margin-left:70px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:70px">A Sketch of English Legal History (Classic Reprint)</p>
+                <p style="margin-left:70px">959.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)" id="butt1" onclick="butt1()">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)" id="butt2" onclick="butt2()">More Details</button>
+                </div>
+
+            </div>
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/51QQY8mF2OL.jpg" alt="" style="margin-left:70px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:70px">FNT 12 Pieces/ Set Zodiac Constellation Blank Round Bezel Setting Base Charm Cabochon DIY 25 mm or 1'' Resin Gemstone Photo Base</p>
+                <p style="margin-left:70px">359.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)"  id="butt3" onclick="butt3()">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)" id="butt4" onclick="butt4()">More Details</button>
+                </div>
+                
+            </div>
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/41jX6hd3M5L.jpg" alt="" style="margin-left:70px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:70px"></p>
+                <p style="margin-left:70px">959.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)">More Details</button>
+                </div>
+                
+            </div>
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/51-yYJkMQxL.jpg" alt="" style="margin-left:70px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:70px">A Sketch of English Legal History (Classic Reprint)</p>
+                <p style="margin-left:70px">959.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)">More Details</button>
+                </div>
+                
+            </div>
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/51-9xmMdhWL.jpg" alt="" style="margin-left:70px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:70px">A Sketch of English Legal History (Classic Reprint)</p>
+                <p style="margin-left:70px">959.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)">More Details</button>
+                </div>
+                
+            </div>
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/61AmMqdWXGL.jpg" alt="" style="margin-left:70px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:70px">A Sketch of English Legal History (Classic Reprint)</p>
+                <p style="margin-left:70px">959.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)">More Details</button>
+                </div>
+                
+            </div>
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/512gdacVXsL.jpg" alt="" style="margin-left:70px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:70px">A Sketch of English Legal History (Classic Reprint)</p>
+                <p style="margin-left:70px">959.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)">More Details</button>
+                </div>
+                
+            </div>
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/51Ep6Lm13kL.jpg" alt="" style="margin-left:70px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:70px">A Sketch of English Legal History (Classic Reprint)</p>
+                <p style="margin-left:70px">959.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)">More Details</button>
+                </div>
+                
+            </div>
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/51rfkB97hfL.jpg" alt="" style="margin-left:70px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:70px">A Sketch of English Legal History (Classic Reprint)</p>
+                <p style="margin-left:70px">959.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)">More Details</button>
+                </div>
+                
+            </div>
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/61I12JxR8CL.jpg" alt="" style="margin-left:70px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:70px">A Sketch of English Legal History (Classic Reprint)</p>
+                <p style="margin-left:70px">959.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)">More Details</button>
+                </div>
+                
+            </div>
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/51CD8ngu4UL.jpg" alt="" style="margin-left:70px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:70px">A Sketch of English Legal History (Classic Reprint)</p>
+                <p style="margin-left:70px">959.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)">More Details</button>
+                </div>
+                
+            </div>
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/51JoeR07FlL.jpg" alt="" style="margin-left:70px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:70px">A Sketch of English Legal History (Classic Reprint)</p>
+                <p style="margin-left:70px">959.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)">More Details</button>
+                </div>
+                
+            </div>
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/51dN20xwvVL.jpg" alt="" style="margin-left:70px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:70px">A Sketch of English Legal History (Classic Reprint)</p>
+                <p style="margin-left:70px">959.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)">More Details</button>
+                </div>
+                
+            </div>
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/51xvcsb31tL.jpg" alt="" style="margin-left:70px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:70px">A Sketch of English Legal History (Classic Reprint)</p>
+                <p style="margin-left:70px">959.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)">More Details</button>
+                </div>
+                
+            </div>
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/41pX4ZnToOL.jpg" alt="" style="margin-left:70px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:70px">A Sketch of English Legal History (Classic Reprint)</p>
+                <p style="margin-left:70px">959.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)">More Details</button>
+                </div>
+                
+            </div>
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/51v03IrD2QL.jpg" alt="" style="margin-left:70px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:70px">A Sketch of English Legal History (Classic Reprint)</p>
+                <p style="margin-left:70px">959.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)">More Details</button>
+                </div>
+                
+            </div>
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/51MRtg0y0nL.jpg" alt="" style="margin-left:90px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:80px">A Sketch of English Legal History (Classic Reprint)</p>
+                <p style="margin-left:70px">959.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)">More Details</button>
+                </div>
+                
+            </div>
+            <div id="img">
+           
+                <img src="https://images-eu.ssl-images-amazon.com/images/I/41-2pCkETAL.jpg" alt="" style="margin-left:70px; margin-top:20px;border-radius:5px;height:400px;">
+                <p style="margin-left:70px">A Sketch of English Legal History (Classic Reprint)</p>
+                <p style="margin-left:70px">959.0</p>
+                <div id="butt">
+                    <button style="margin-left:80px;height:30px;color:rgb(11, 126, 235)">View Now</button>
+                    <button style="height:30px;color:rgb(11, 126, 235)">More Details</button>
+                </div>
+                
+            </div>
+           
+            
+        </div>
+        <div id="footer">
+          
+        </div>
+       
+
+    </div>
+</body>
+</html>
+<script src="./scripts/index.js" type="module"></script>
+
+
+
+    
+  
+        
+    

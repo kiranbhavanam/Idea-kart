@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+        #container{
+            height:700px;
+            background-image:url("https://wallpapercave.com/wp/wp3718031.jpg");
+            max-width: 100%;
+            max-height: 100%;
+        }
+        #names{
+            display:flex;
+            margin-left: 100px;
+            justify-content: space-around;
+        }
+        #email{
+            display: flex;
+            margin-left: 100px;
+            justify-content: space-around;
+        }
+    
+         
+    </style>
+</head>
+<body>
+    <div id="nav"></div>
+    <div id="container">
+        
+        <p style ="margin-left: 500px;margin-top: none;">You can contact our team by filling this form -</p>
+        <div id = names>
+            <h2>Firstname *</h2>
+            <h2>Lastname *</h2>
+        </div>
+        <div>
+            <input type="text" style="margin-left: 100px;width:40%;height:20px;" placeholder="please enter your first name">
+            <input type="text" style="margin-left: 100px;width:40%;height:20px;" placeholder="please enter your last name">
+        </div>
+        <div id = email>
+            <h2>Email *</h2>
+            <h2>Phone *</h2>
+        </div>
+        <div>
+            <input type="text"  style="margin-left: 100px;width:40%;height:20px;"placeholder="please enter your Email">
+            <input type="number"  style="margin-left: 100px;width:40%; height:20px;"placeholder="please enter your mobile number">
+        </div>
+        <h3 style ="margin-left: 650px;">Message *</h3>
+        <input type="text " style="margin-left: 100px;height:90px;width:90%" placeholder="Massage for me">
+        <button  style ="margin-left: 650px; background-color: rgb(4, 155, 62);margin-top: 10px;height:40px;color:white;border-radius: 5px;"id="butt" onclick="butt()" >Send message</button>
+
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
+<script src="./scripts/contact.js" type="module">
+      
+    
+</script>

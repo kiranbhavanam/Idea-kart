@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Details</title>
+    <link rel="stylesheet" href="./navbar.css">
+    <style>
+        #container{
+            /* margin-left: 110px; */
+            margin-top: 50px;
+            height:2000px;
+            width:100%;
+        }
+
+        #details{
+            /* height:500px; */
+            width:80%;
+            /* border:1px solid red; */
+            display: flex;
+             margin-left: 110px; 
+        }
+        #text{
+             margin-left: 36%;
+             margin-top: -30%;
+             width:45%;
+             /* border:1px solid red; */
+        }
+        #store{
+            display:flex;
+            /* gap:40%; */
+            margin-left: 50px;
+            width:90%
+        }
+         #amazon{
+             display:flex;
+            
+            margin-left: 50px;
+        } 
+        #price{
+             margin-left: 110px;
+            display:flex;
+        }
+        #instant{
+            margin-left: 110px;
+            /* height:50px; */
+            width:27%;
+            color:white;
+            background-color: rgb(152, 209, 68);
+            font-size:large;
+            cursor: pointer;
+        }
+        #bottom{
+            margin-left: 110px;
+            font-size:larger;
+            width:80%;
+            /* font-weight: bolder; */
+        }
+        #read{
+            margin-left:110px;
+            display: flex;
+            gap:35%;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            width:80%; 
+        }
+        #read2{
+              margin-left:110px;
+              box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+              width:80%; 
+        }
+        #read3{
+            margin-left: 110px;
+            display: flex;
+            gap:35%;
+            width: 80%;
+        }
+        #color{
+            color: white;
+            background-color:rgb(59, 132, 243) ;
+            width: 80%;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav"></div>
+    <div id="container">
+
+        <div id="details">
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/41HcothYyLL.jpg" alt="">
+            <h1 style="margin-left:50px;">Democracy`s Detectives - The Economics of Investigative Journalism</h1>
+           
+        </div>
+        <div id="text">
+            <h3>James T. Hamilton's Democracy`s Detectives - The Economics of Investigative Journalism</h3>
+            <p>Winner of the Goldsmith Book Prize, Shorenstein Center on Media, Politics and Public Policy at the Harvard Kennedy School of Government Winner of the Tankard Book Award, Association for Education in Journalism and Mass Communication Winner of the Frank Luther Mott-Kappa Tau Alpha Journalism & Mass Communication Research Award In democratic societies, investigative Journalism holds Government and private institutions accountable to the public. From firings and resignations to changes in budgets and laws, the impact of this reporting can be significant-but so too are the costs. As Newspapers confront shrinking subscriptions and advertising revenue, who is footing the bill for journalists to carry out their essential work? Democracy's Detectives puts investigative Journalism under a magnifying glass to clarify the challenges and Opportunities facing News Organizations today. "Hamilton's book presents a thoughtful and detailed case for the indispensability of investigative journalism-and just at the Time when we needed it. Now more than ever, reporters can play an essential role as society's watchdogs, working to expose corruption, greed, and injustice of the years to come. For this reason, Democracy's Detectives should be taken as both a call to arms and a bracing reminder, for Readers and journalists alike, of the importance of the profession." -Anya Schiffrin, The Nation "A highly original look at exactly what the subtitle promises...Has this topic ever been more important than this year?" -Tyler Cowen, Marginal Revolution</p>
+            <div id="store">
+                <h4>store</h4>
+                <h4 style="margin-left:210px;">price</h4>
+                <h4 style="margin-left:140px;">Buy Now</h4>
+            </div>
+            <div id="amazon">
+                <p>Amazon Paperback</p>
+                <p style="margin-left:110px;">Rs 616.0</p>
+                <button id="butt" onclick="butt()" style="height:40px;width:90px;margin-left:110px;margin-top:15px;color:white;background-color: rgb(0, 102, 255);border-radius: 10px;">Buy Now</button>
+            </div>
+        </div> 
+        
+            <h5 style="margin-left: 110px;margin-top: -110px;">Buy it at best price from here</h5>
+            <div id="price">
+                <h3 style="margin-top:5px;">Rs 523</h3>
+                <button id="butt2" onclick="butt2()" style="margin-left:90px;height:40px;width:80px;color: white;background-color:orange;border-radius: 10px;">Buy Now</button>
+
+            </div>
+            <div id="instant" onclick="get()">Get Instant Cashback when you pay using Amazon Pay... Click Here</div>
+            <h3 style="margin-left:110px;">Book Specification</h3>
+            <div style="display:flex; margin-left:120px;margin-top:-20px;">
+                <h4>Binding</h4>
+                <p style="margin-left:110px;margin-top:23px;">	Paperback</p>
+            </div>
+            <div style="display:flex; margin-left:120px;margin-top:-20px;">
+                <h4>language</h4>
+                <p style="margin-left:100px;margin-top:23px;">English</p>
+            </div>
+            
+            <div style="display:flex; margin-left:120px;margin-top:-20px;">
+                <h4>Number Of Pages</h4>
+                <p style="margin-left:40px;margin-top:23px;">364</p>
+            </div>
+
+            <div style="display:flex; margin-left:120px;margin-top:-20px;">
+                <h4>Author</h4>
+                <p style="margin-left:110px;margin-top:23px;color:rgb(0, 102, 255)">James T. Hamilton</p>
+            </div>
+
+            <div style="display:flex; margin-left:120px;margin-top:-20px;">
+                <h4>Publisher</h4>
+                <p style="margin-left:90px;margin-top:23px;color:rgb(0, 102, 255)">Harvard University Press</p>
+            </div>
+
+            <div style="display:flex; margin-left:120px;margin-top:-20px;">
+                <h4>Isbn-10</h4>
+                <p style="margin-left:90px;margin-top:23px;">0674986814</p>
+            </div>
+
+            <div style="display:flex; margin-left:120px;margin-top:-20px;">
+                <h4>Isbn-13</h4>
+                <p style="margin-left:90px;margin-top:23px;">9780674986817</p>
+            </div>
+
+            <div style="display:flex; margin-left:120px;margin-top:-20px;">
+                <h4>Dimensions</h4>
+                <p style="margin-left:90px;margin-top:23px;">15.88*2.54*23.5</p>
+            </div>
+
+            <div id="bottom">
+                <h2  style="font-weight: bolder;">Why you should read Democracy`s Detectives – The Economics of Investigative Journalism by James T. Hamilton</h2>
+                <p>This book has been written by James T. Hamilton, who has written books like Democracy`s Detectives – The Economics of Investigative Journalism. The books are written in Industries & Business Sectors category. This book is read by people who are interested in reading books in category : Industries & Business Sectors. So, if you want to explore books similar to This book, you must read and buy this book.</p>
+            </div>
+            
+            <h2 style="margin-left:110px;font-weight: bolder;width:80%">How long would it take for you to read Democracy`s Detectives – The Economics of Investigative Journalism</h2>
+            <p style="margin-left:110px;font-size: larger;">Depending on your reading style, this is how much time you would take to complete reading this book.</p>
+            <div id="read">
+                <h4>Reading Style</h4>
+                <p style="margin-top:20px;margin-right:10px;">Time To Finish The Book</p>
+            </div>
+            <div id="read">
+                <h4>Slow</h4>
+                <p style="margin-top:20px;margin-left: 60px;">76 hours</p>
+            </div>
+            <div id="read">
+                <h4>Average</h4>
+                <p style="margin-top:20px;margin-left: 35px;">38 hours</p>
+            </div>
+            <div id="read">
+                <h4>Good</h4>
+                <p style="margin-top:20px;margin-left: 60px;">25 hours</p>
+            </div>
+            <div id="read">
+                <h4>Excellent</h4>
+                <p style="margin-top:20px;margin-left: 35px;">12 hours</p>
+            </div>
+             <div id="read2">
+                <h4>So if you are a Reader belonging in the Good category, and you read it daily for 1 hour, it will take you 25 days.
+                </h4>
+                <p>Note: A slow reader usually reads 100 words per minute, an average reader 200 words per minute, an average reader 300 words per minute and an excellent leader reads about 600-1000 words per minute, however the comprehension may vary.</p>
+    
+             </div>
+             <div id="color">
+                 <p style="margin-left:10px;margin-top:40px;">Searches in World for Democracy`s Detectives – The Economics of Investigative Journalism</p>
+                 <div style="height:1px; width:95%;background-color:white;margin-left:10px;"></div>
+                 <div id="read3">
+                     <p>city</p>
+                     <p>country</p>
+                     <p>count</p>
+                 </div>
+                 <div style="height:1px; width:95%;background-color:white;margin-left:10px;"></div>
+                 <p style="margin-left:75%">58</p>
+             </div>
+            
+
+            
+
+
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
+<script src="./scripts/details.js" type="module">
+   
+</script>

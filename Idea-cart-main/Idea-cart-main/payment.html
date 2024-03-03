@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment</title>
+    <style>
+        #container{
+            margin-left: 110px;
+        }
+        #pay{
+            width:30%;
+            margin-left: 50px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+        }
+    </style>
+
+</head>
+<body>
+    <div id="container">
+        <div>
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/checkout/checkout-spc-address-banner._CB485947649_.gif" alt="">
+        </div>
+        <h2>Select a payment method</h2>
+        <div id="pay">
+            <h4>Another payment method</h4>
+            <div style="display:flex; gap:10px;">
+                <input type="checkbox">
+                <h5 style="margin-top:-0.9px;">Add Debit/Credit/ATM Card</h5>
+            </div>
+            <div style="display:flex; gap:10px;">
+                <input type="checkbox">
+                <h5  style="margin-top:-0.9px;">Other upi apps</h5>
+            </div>
+            <div  style="display:flex; gap:10px;">
+                <input type="checkbox">
+                <h5  style="margin-top:-0.9px;">Pay on delivery</h5>
+            </div>
+            
+        </div>
+        <button id="butt" onclick="butt()" style="margin-top:30px;margin-left:40px;height:40px;width:7%;border-radius:10px;background-color: rgb(255, 251, 31);">Continue</button>
+
+    </div>
+</body>
+</html>
+<script src="./scripts/payment.js"></script>
